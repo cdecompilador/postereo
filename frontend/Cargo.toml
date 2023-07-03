@@ -1,0 +1,22 @@
+[package]
+name = "frontend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+shared = { path = "../shared" }
+
+# Framework
+leptos = { version = "0.4.1", features = ["csr"] }
+leptos_router = "0.4.1"
+gloo-net = "0.3.0"
+
+# Logging
+console_log = "1.0.0"
+log = "0.4.19"
+console_error_panic_hook = "0.1.7"
+
+# Error management
+anyhow = "1.0.71"
+thiserror = "1.0.40"
+serde = { version = "1.0.164", features = ["derive"] }

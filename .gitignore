@@ -1,0 +1,8 @@
+/backend/target
+/backend/mydb*
+/backend/.env
+*.lock
+/frontend/target
+/frontend/dist
+/shared/target
+/target
